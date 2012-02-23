@@ -1,0 +1,55 @@
+<HTML>
+	<HEAD>
+		<title> Fitness Quest - Home </title>
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css"></style>
+		<link rel="stylesheet" type="text/css" href="css/tabs.css"></style>
+		<style>#Slideshow1 img {height:200px; width:800px;}</style>
+		<script type="text/javascript" src="js/slideshowmerge.js"></script
+		
+	</HEAD>
+	<!--[if IE 9]> <link rel="stylesheet" type="text/css" href="css/tabsIEOveride.css"></style> <![endif]-->
+
+	<BODY>
+		<div id="main">
+			<div id="header">
+				<table border="0">
+					<tr>
+						<td width="365"><img id="logo" src="images/fitness quest logo.png"/></td>
+						<td></td>
+						<td><h1 id="head_text1" class="header_text">Fitness Quest</h1><h2 id="head_text2" class="header_text">Physical Therapy </h2></td>
+					</tr>
+				</table>
+				<div id="navigation">
+					<ul id="nav">
+						<li class="current"><a href="index.html">Home</a></li>
+						<li><a href="physical_therapy.html">Physical Therapy</a></li>
+						<li><a href="occupational_therapy.html">Occupational Therapy</a></li>
+						<li><a href="hand_therapy.html">Hand Therapy</a></li>
+						<li><a href="careers.html">Careers</a></li>
+						<li><a href="about_us.html">About Us</a></li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			
+			<!-- Creates fadign slideshow -->
+			<div id="slideshow">
+				<script>
+					var imgArray = new Array();
+					imgArray[0] = "images/home_image1.gif";
+					imgArray[1] = "images/home_image2.gif";
+					imgArray[2] = "images/home_image3.gif";
+					slideshowMerge('Slideshow1','',imgArray,15,3200);    
+				</script>
+			</div>
+			<div id="homeDescription">
+			<h2>About Our Company</h2>
+			</div>
+		</div>
+	</BODY>
+	
+	<FOOTER>
+		<p id="footer">Copyright 2008-2012. Fitness Quest Physical Therapy. All rights reserved.</p>
+	</FOOTER>
+
+</HTML>
