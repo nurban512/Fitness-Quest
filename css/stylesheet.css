@@ -1,0 +1,47 @@
+body {
+	background-color: #26548D;
+	position: relative;
+	top: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+div#main {
+	background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 830px;
+	height: 505px;
+	border-radius: 25px;
+	box-shadow: -5px -5px 20px #202020;
+}
+
+.header_text {
+	font-family: Verdana, Times;
+	text-align: right;
+	color: #04234A;
+}
+
+img.slideshowimg {
+	border-radius: 9px;
+}
+
+div#slideshow {
+	height: 215px;
+}
+
+p#footer {
+	color: #C7C7C7;
+	font-family: Verdana, Times;
+	font-size: 12px;
+}
+
+img#logo {
+	
+}
+
+table {
+	width: 100%;
+	padding: 15px;
+}
