@@ -1,13 +1,14 @@
 <HTML>
 	<HEAD>
-		<title> Fitness Quest - Home </title>
+		<title> Fitness Quest - Home </title>		
 		<link rel="stylesheet" type="text/css" href="css/stylesheet.css"></style>
 		<link rel="stylesheet" type="text/css" href="css/tabs.css"></style>
 		<style>#Slideshow1 img {height:200px; width:800px;}</style>
 		<script type="text/javascript" src="js/slideshowmerge.js"></script
-		
+				
 	</HEAD>
 	<!--[if IE 9]> <link rel="stylesheet" type="text/css" href="css/tabsIEOveride.css"></style> <![endif]-->
+	
 
 	<BODY>
 		<div id="main">
@@ -33,7 +34,7 @@
 			<hr>
 			
 			<!-- Creates fadign slideshow -->
-			<div id="slideshow">
+			<div id="mainSlideshow">
 				<script>
 					var imgArray = new Array();
 					imgArray[0] = "images/home_image1.gif";
@@ -43,7 +44,17 @@
 				</script>
 			</div>
 			<div id="homeDescription">
-			<h2>About Our Company</h2>
+			<h2 id="homeTitle" >About Our Company</h2>	
+			
+			<div id="mainSlideshow">
+				<script>
+					var imgArray = new Array();
+					imgArray[0] = "images/quote1.png";
+					imgArray[1] = "images/quote2.png";
+					slideshowMerge('Slideshow2','',imgArray,15,3200);    
+				</script>
+			</div>
+			
 			</div>
 		</div>
 	</BODY>
