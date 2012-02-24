@@ -12,7 +12,7 @@ div#main {
     margin: 0 auto;
     text-align: center;
     width: 830px;
-	height: 505px;
+	height: 800;
 	border-radius: 25px;
 	box-shadow: -5px -5px 20px #202020;
 }
@@ -20,6 +20,11 @@ div#main {
 .header_text {
 	font-family: Verdana, Times;
 	text-align: right;
+	color: #04234A;
+}
+
+.header_text2 {
+	font-family: Verdana, Times;
 	color: #04234A;
 }
 
@@ -31,17 +36,49 @@ div#slideshow {
 	height: 215px;
 }
 
+div#Slideshow2 {
+	position: relative;
+	top: 175px;
+	left: 530px
+}
+
 p#footer {
 	color: #C7C7C7;
 	font-family: Verdana, Times;
 	font-size: 12px;
 }
 
-img#logo {
-	
+p#companyDescriptionTop {
+	size: 14;
+	font-family: Verdana, Times;
+	text-align: left;
+	position: relative;
+	left: 15px;
+	top: 200px;
+	width: 525px;
+}
+
+p#companyDescriptionBottom {
+	size: 14;
+	font-family: Verdana, Times;
+	text-align: left;
+	position: relative;
+	left: 15px;
+	top: 185px;
 }
 
 table {
 	width: 100%;
 	padding: 15px;
+}
+
+h2#homeTitle {
+	position: relative;
+	top: 200px;
+	right: 100px;
+}
+
+#line1{
+	position: relative;
+	top: 200px;
 }
