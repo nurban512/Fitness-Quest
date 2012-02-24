@@ -12,20 +12,36 @@ div#main {
     margin: 0 auto;
     text-align: center;
     width: 830px;
-	height: 800;
+	height: 1315px; 
 	border-radius: 25px;
 	box-shadow: -5px -5px 20px #202020;
 }
 
 .header_text {
 	font-family: Verdana, Times;
-	text-align: right;
 	color: #04234A;
 }
 
-.header_text2 {
+h1#head_text1 {
+	text-align: right;
+}
+
+#head_text2 {
+	text-align: right;
+}
+
+#homeTitle {
 	font-family: Verdana, Times;
 	color: #04234A;
+	position: relative;
+	left: -230px;
+}
+
+#linkHeader {
+	font-family: Verdana, Times;
+	color: #04234A;
+	position: relative;
+	top: 230px;
 }
 
 img.slideshowimg {
@@ -39,7 +55,11 @@ div#slideshow {
 div#Slideshow2 {
 	position: relative;
 	top: 175px;
-	left: 530px
+	left: 530px;
+}
+
+#subtext{
+	border-spacing: 0px;
 }
 
 p#footer {
@@ -56,6 +76,15 @@ p#companyDescriptionTop {
 	left: 15px;
 	top: 200px;
 	width: 525px;
+	line-height:145%;
+	text-indent: 40px;
+}
+
+.locationLinkTable {
+	font-family: Verdana, Times;
+	position: relative;
+	top: 260px;
+	font-weight:bold;
 }
 
 p#companyDescriptionBottom {
@@ -65,6 +94,14 @@ p#companyDescriptionBottom {
 	position: relative;
 	left: 15px;
 	top: 185px;
+	width: 800;
+	line-height:145%
+}
+
+.simpleText {
+	size: 14;
+	font-family: Verdana, Times;
+	font-weight:bold;
 }
 
 table {
@@ -80,5 +117,72 @@ h2#homeTitle {
 
 #line1{
 	position: relative;
-	top: 200px;
+	top: 300px;
+}
+
+#line2{
+	position: relative;
+	top: 20px;
+}
+
+#staffTitle{
+	position: relative;
+	top: 20px;
+}
+
+#staffTable {
+	position: relative;
+	top: 20px;
+}
+
+.staff{
+	size: 14;
+	font-family: Verdana, Times;
+	line-height:130%
+}
+
+#bioSchoolList{
+	position: relative;
+	top: 10px;
+}
+
+.staffText {
+	text-indent: 40px;
+	size: 14;
+	font-family: Verdana, Times;
+	text-align: left;
+	position: relative;
+	left: 40px;
+	top: 10;
+	width: 750;
+	line-height:145%
+}
+
+#staffName {
+	position: relative;
+	left: 110px;
+}
+
+#nicoleBioPic{
+	position: relative;
+	top: 70px;
+	right: 170px;
+}
+
+#followTitle{
+	position: relative;
+	top: 325px;
+}
+
+#followTable{
+	position: relative;
+	top: 315px;
+	left: 315px;
+	width: 200px;
+}
+
+#table2{
+	position: relative;
+	left: 175px;
+	width: 500px;
 }
