@@ -12,7 +12,7 @@ div#main {
     margin: 0 auto;
     text-align: center;
     width: 830px;
-	height: 1315px; 
+	height: 1815px; 
 	border-radius: 25px;
 	box-shadow: -5px -5px 20px #202020;
 }
@@ -135,7 +135,10 @@ h2#homeTitle {
 	top: 20px;
 }
 
-.staff{
+.staffEd{
+	position: relative;
+	left: 40px;
+	text-align: left;
 	size: 14;
 	font-family: Verdana, Times;
 	line-height:130%
