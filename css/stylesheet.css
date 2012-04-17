@@ -14,7 +14,6 @@ div#main {
     width: 830px;
 	height: 1815px; 
 	border-radius: 25px;
-	box-shadow: -5px -5px 20px #202020;
 }
 
 .header_text {
@@ -34,14 +33,13 @@ h1#head_text1 {
 	font-family: Verdana, Times;
 	color: #04234A;
 	position: relative;
-	left: -230px;
 }
 
 #linkHeader {
 	font-family: Verdana, Times;
 	color: #04234A;
 	position: relative;
-	top: 230px;
+	top: 280px;
 }
 
 img.slideshowimg {
@@ -54,8 +52,8 @@ div#slideshow {
 
 div#Slideshow2 {
 	position: relative;
-	top: 175px;
-	left: 530px;
+	top: 230px;
+	left: 515px;
 }
 
 #subtext{
@@ -68,22 +66,18 @@ p#footer {
 	font-size: 12px;
 }
 
-p#companyDescriptionTop {
-	size: 14;
-	font-family: Verdana, Times;
-	text-align: left;
+img#companyDescriptionTop {
 	position: relative;
-	left: 15px;
-	top: 200px;
-	width: 525px;
-	line-height:145%;
-	text-indent: 40px;
+	right: 160px;
+	top: 230px;
+	width: 475px;
+	border-radius: 9px;
 }
 
 .locationLinkTable {
 	font-family: Verdana, Times;
 	position: relative;
-	top: 260px;
+	top: 290px;
 	font-weight:bold;
 }
 
@@ -92,10 +86,11 @@ p#companyDescriptionBottom {
 	font-family: Verdana, Times;
 	text-align: left;
 	position: relative;
-	left: 15px;
-	top: 185px;
-	width: 800;
-	line-height:145%
+	left: 40;
+	top: 260px;
+	width: 750;
+	line-height:145%;
+	text-indent: 2.0em;
 }
 
 .simpleText {
@@ -179,7 +174,7 @@ h2#homeTitle {
 
 #followTable{
 	position: relative;
-	top: 315px;
+	top: 335px;
 	left: 315px;
 	width: 200px;
 }

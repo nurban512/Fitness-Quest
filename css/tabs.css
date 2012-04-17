@@ -8,7 +8,7 @@ ul#nav {
 ul#nav li {
     background: #bdf url(../images/tabs.gif);
     float: left;
-    margin: 0 8px 0 8px;
+    margin: 0 1px 0 1px;
     padding-left: 10px;
 	font-weight: bold;
 	
